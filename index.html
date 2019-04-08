@@ -7,24 +7,24 @@
 	
 
 	
-	if ()
+	if (document.form.password.value==document.form.usuario.value)
 	{ 
-	alert("porfavor ingrese bien");
-}
+	alert("Login incorrecto");
+	}
 	
 	else {
-		alert("porfavor ingrese bien");
+		alert(" ingresaste");
+		}
 	}
-}
 	
 </script>
 <form name=form action="index.html">	
 <body>
 		<p>ingrese correo</p>
-		<input type="usuario" name="us" placeholder="usuario" >
+		<input type="usuario" name=usuario placeholder="usuario" >
 		
 		<p>ingrese contraseña</p>
-		<input type="password" name="con" placeholder="Poner Contrasena" >
+		<input type="password" name=password placeholder="Poner Contrasena" >
 		
 		<p></p>
 		<input onclick =go() type= "submit" value="login" >
