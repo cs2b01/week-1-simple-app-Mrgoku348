@@ -1,12 +1,27 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-</head>
-
+	<title>Login</title>
+	<head>Login</head>
+	<form name=form action="index.html">	
 <body>
-Content of the document......
-</body>
+		<p>ingrese correo</p>
+		<input type="usuario" name="us" placeholder="usuario" >
+		
+		<p>ingrese contraseña</p>
+		<input type="password" name="con" placeholder="Poner Contrasena" >
+		
+		<p></p>
+		<input type= "submit" value="login" >
+	</body>
+	</form>
+	<SCRIPT language=JavaScript>
 
+	function go(){ 	
+	
+	var us=document.getElementById("username")
+	var con=document.getElementById("contrasena")
+	if (us==con){ 
+	alert("Porfavor ingreselo correctamente");}
+	else {document.form.submit();}}
+	
+</script>
 </html>
